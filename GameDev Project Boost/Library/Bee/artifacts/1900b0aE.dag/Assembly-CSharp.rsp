@@ -352,6 +352,7 @@
 "Assets/Scripts/HideOnLoad.cs"
 "Assets/Scripts/LightPulse.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/MoveObject.cs"
 -langversion:9.0
 
 /deterministic
