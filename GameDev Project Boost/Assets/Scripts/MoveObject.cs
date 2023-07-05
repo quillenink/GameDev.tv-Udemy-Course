@@ -17,6 +17,7 @@ public class MoveObject : MonoBehaviour
 
     void Update() 
     {
+        if(period <= Mathf.Epsilon) { return; }
         float cycles = Time.time / period; // continually growing over time
         const float tau = Mathf.PI * 2; // 6.283, # of radians to make full circle
         float rawSinWave = Mathf.Sin( cycles * tau); // -1 to 1
