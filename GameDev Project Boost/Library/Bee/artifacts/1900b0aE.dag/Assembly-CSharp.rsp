@@ -353,6 +353,7 @@
 "Assets/Scripts/LightPulse.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/MoveObject.cs"
+"Assets/Scripts/QuitApp.cs"
 -langversion:9.0
 
 /deterministic
